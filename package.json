@@ -1,0 +1,26 @@
+{
+  "name": "DMIT2008-Assessment1",
+  "version": "1.0.0",
+  "description": "Front end development class first assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanoTorres/DMIT2008-Assessment1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StefanoTorres/DMIT2008-Assessment1/issues"
+  },
+  "homepage": "https://github.com/StefanoTorres/DMIT2008-Assessment1#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "parcel": "^1.12.4"
+  }
+}
