@@ -21,7 +21,7 @@ window.addEventListener('load',function(e){
                 document.querySelector('.error p').textContent = "There was an error retrieving the data";
             }
             else{
-                document.querySelector('.error p').textContent = "No error"
+                document.querySelector('.error p').textContent = ""
                 let template = stockView(result);
                 let stockElement = createElementFromTemplate(template);
                 AddMarkupToPage(stockElement);

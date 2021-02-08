@@ -28,3 +28,6 @@ footer{
     margin: 5px;
     background-color: white;
 }
+.error{
+    color: red;
+}
